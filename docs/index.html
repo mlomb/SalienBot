@@ -205,7 +205,7 @@
 			}
 			
 			function loadrealtime() {
-				$.getJSON('https://cors-anywhere.herokuapp.com/https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/?active_only=1&language=english', function(data){
+				$.getJSON('https://api.codetabs.com/cors-proxy/https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/?active_only=1&language=english', function(data){
 					updateRealtime(JSON.stringify(data));
 				});
 			}

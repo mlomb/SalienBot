@@ -45,7 +45,7 @@ namespace SalienBot
 
     class Program
     {
-        static int SLEEP_TIME = 120;
+        static int SLEEP_TIME = 110;
         static string ACCESS_TOKEN;
 
         public static List<int> Priorities = new List<int>() {

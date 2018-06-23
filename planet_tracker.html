@@ -1,0 +1,167 @@
+<html>
+	<head>
+		<title>Salien Planets</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Roboto');
+			* {
+				margin: 0;
+				padding: 0;
+				font-family: "Roboto", Sans-serif;
+			}
+			a {
+				color: #35caff;
+				text-decoration: none;
+			}
+			body {
+				background-color: gray;
+				background: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/faq/bg.jpg) top center no-repeat;
+				background-size: cover;
+			}
+			.logo {
+				background-image: url(https://steamcommunity-a.akamaihd.net/public/images/saliengame/saliens_logo.png?v=1550bld);
+				width: 250px;
+				height: 100px;
+				margin: 10px auto;
+			}
+			.content {
+				background: #0606065c;
+				color: white;
+				padding: 25px;
+			}
+			.loading {
+				text-align: center;
+				font-weight: bold;
+			}
+			.subtitle {
+				color: white;
+				text-align: center;
+				padding-bottom: 6px;
+			}
+			.progress {
+				padding: 4px;
+				background: rgba(0, 0, 0, 0.25);
+				border-radius: 6px;
+				box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+				width: 500px;
+			}
+			.progress-bar {
+				height: 16px;
+				border-radius: 4px;
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+				transition: 0.4s linear;
+				transition-property: width, background-color;
+				box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+			}
+			.planet .planet-img {
+				width: 128px;
+				height: 128px;
+				float: left;
+			}
+			.planet .planet-info {
+				height: 128px;
+				margin-left: 150px;
+			}
+			.planet .planet-name {
+				font-size: 26px;
+				font-weight: bold;
+				border-bottom: 2px #e60000fc solid;
+			}
+			.planet .planet-progress {
+				font-weight: bold;
+				margin-left: 10px;
+				color: #da86ff;
+			}
+			.planet .planet-details {
+			    width: 100%;
+				padding: 16px 0;
+				font-size: 19px;
+			}
+			.planet.active .planet-name {
+				border-color: #e6e600fc;
+			}
+			.planet.captured .planet-name {
+				border-color: #00e623fc;
+			}
+			
+			hr {
+				margin: 25px 0;
+				border: 0;
+				height: 1px;
+				background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+			}
+		</style>
+	</head>
+	<body> 
+		<div class="logo"></div>
+		<div class="subtitle">If you don't want to mess your script and see how the event is going</div>
+		<div class="content"></div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			function dots(input) {
+				return input.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+			}
+		
+			function updateProgressBar(selector, amount) {
+				var col = "magenta";
+				if(amount < 0.05) col = "#f63a0f";
+				else if(amount < 0.25) col = "#f27011";
+				else if(amount < 0.50) col = "#f2b01e";
+				else if(amount < 0.75) col = "#f2d31b";
+				else col = "#86e01e";
+				
+				$(selector).css("width", amount * 100 + "%").css("background-color", col);
+			}
+			
+			function updateContent(data) {
+				$(".content").html('');
+				
+				var planets = JSON.parse(data).response.planets;
+				
+				for(var i in planets) {
+					var planet = planets[i];
+					//console.log(planet);
+					
+					var clss = "";
+					var details = "";
+					
+					if(planet.state.active) {
+						clss += " active";
+						details = 'Joins: <span class="planet-joins"></span><br>Players: <span class="planet-players"></span>';
+						if(!planet.state.captured) {
+							details += '<div class="progress"><div class="progress-bar"></div></div>';
+						} else {
+							details += '<br><a href="https://store.steampowered.com/prizes/winners/' + planet.state.giveaway_id + '" target="_blank">Check winners</a>';
+						}
+					} else {
+						details = 'Not active yet';
+					}
+					if(planet.state.captured) {
+						clss = " captured";
+					}
+					
+					
+					var planet_element = $(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet.state.name + '</a></span><span class="planet-progress"></span><div class="planet-details">' + details + '</div></div></div><hr>');
+					
+					if(planet.state.active) {
+						$("#planet-" + planet.id + " .planet-progress").html((planet.state.capture_progress*100).toFixed(2) + "%");
+						$("#planet-" + planet.id + " .planet-joins").html(dots(planet.state.total_joins));
+						$("#planet-" + planet.id + " .planet-players").html(dots(planet.state.current_players));
+						updateProgressBar("#planet-" + planet.id + " .progress-bar", planet.state.capture_progress);
+					}
+				}
+				
+				console.log(planets);
+			}
+			
+			function reload() {
+				$(".content").html('<div class="loading">Loading...</div>');
+				$.getJSON('http://allorigins.me/get?url=https%3A//community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/%3Flanguage%3Denglish&callback=?', function(data){
+					updateContent(data.contents);
+				});
+			}
+			
+			reload();
+			setInterval(reload, 1000 * 60 * 5);
+		</script>
+	</body>
+</html>

@@ -97,10 +97,10 @@
 		<div class="subtitle">If you don't want to mess your script and see how the event is going</div>
 		<div class="content"></div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-animateNumber/0.0.14/jquery.animateNumber.min.js"></script>
 		<script>
-			function dots(input) {
-				return input.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-			}
+			var REALTIME_UPDATE_RATE = 10;
+			var first_mul = 0;
 		
 			function updateProgressBar(selector, amount) {
 				var col = "magenta";
@@ -113,10 +113,34 @@
 				$(selector).css("width", amount * 100 + "%").css("background-color", col);
 			}
 			
+			function planetPriority(planet) {
+				var r = -1;
+				if(planet.state.active) {				
+					if(planet.state.captured)
+						r = 0;
+					else
+						r = planet.state.capture_progress;
+				}
+				return r;
+			}
+			
 			function updateContent(data) {
 				$(".content").html('');
 				
 				var planets = JSON.parse(data).response.planets;
+				
+				for(var i in planets) {
+					var planet = planets[i];
+					planet.sortval = planetPriority(planet);
+				}
+				
+				planets.sort(function(a, b)
+				{
+					if(b.sortval == a.sortval)
+						return b.id - a.id;
+					else
+						return b.sortval - a.sortval;
+				});
 				
 				for(var i in planets) {
 					var planet = planets[i];
@@ -141,28 +165,50 @@
 					}
 					
 					
-					var planet_element = $(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet.state.name + '</a></span><span class="planet-progress"></span><div class="planet-details">' + details + '</div></div></div><hr>');
-					
+					$(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet.state.name + '</a></span><span class="planet-progress"></span><div class="planet-details">' + details + '</div></div></div><hr>');
+				}
+				
+				console.log(planets);
+			}
+			
+			function updateRealtime(data) {
+				var planets = JSON.parse(data).response.planets;
+				
+				for(var i in planets) {
+					var planet = planets[i];
 					if(planet.state.active) {
-						$("#planet-" + planet.id + " .planet-progress").html((planet.state.capture_progress*100).toFixed(2) + "%");
-						$("#planet-" + planet.id + " .planet-joins").html(dots(planet.state.total_joins));
-						$("#planet-" + planet.id + " .planet-players").html(dots(planet.state.current_players));
+						var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
+						
+						$("#planet-" + planet.id + " .planet-joins").animateNumber({ number: planet.state.total_joins, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul);
+						$("#planet-" + planet.id + " .planet-players").animateNumber({ number: planet.state.current_players, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul);
+						$("#planet-" + planet.id + " .planet-progress").text((planet.state.capture_progress*100).toFixed(2) + "%");
+						
+						
 						updateProgressBar("#planet-" + planet.id + " .progress-bar", planet.state.capture_progress);
 					}
 				}
 				
-				console.log(planets);
+				first_mul = 1;
 			}
 			
 			function reload() {
 				$(".content").html('<div class="loading">Loading...</div>');
 				$.getJSON('https://allorigins.me/get?url=https%3A//community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/%3Flanguage%3Denglish&callback=?', function(data){
 					updateContent(data.contents);
+					updateRealtime(data.contents);
+				});
+			}
+			
+			function loadrealtime() {
+				$.getJSON('https://cors-anywhere.herokuapp.com/https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/?active_only=1&language=english', function(data){
+					updateRealtime(JSON.stringify(data));
 				});
 			}
 			
 			reload();
 			setInterval(reload, 1000 * 60 * 5);
+			setInterval(loadrealtime, 1000 * REALTIME_UPDATE_RATE);
+			setTimeout(function() { location.reload(); }, 1000 * 60 * 60); // check for page updates
 		</script>
 	</body>
 </html>

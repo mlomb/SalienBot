@@ -155,7 +155,7 @@
 			
 			function reload() {
 				$(".content").html('<div class="loading">Loading...</div>');
-				$.getJSON('http://allorigins.me/get?url=https%3A//community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/%3Flanguage%3Denglish&callback=?', function(data){
+				$.getJSON('https://allorigins.me/get?url=https%3A//community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/%3Flanguage%3Denglish&callback=?', function(data){
 					updateContent(data.contents);
 				});
 			}

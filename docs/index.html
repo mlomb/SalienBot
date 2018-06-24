@@ -90,6 +90,25 @@
 				height: 1px;
 				background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
 			}
+			
+			.zones .cell {
+				width: 42px;
+				height: 48px;
+				text-align: center;
+			}
+			.zones .cell.difficulty-1 { background-color: #0a8200e3; }
+			.zones .cell.difficulty-2 { background-color: #828200e3; }
+			.zones .cell.difficulty-3 { background-color: #820000e3; }
+			
+			.zones .cell-progress {
+				width: 32px;
+				height: 5px;
+				margin-left: 5px;
+			}
+			.zones .cell-progress-bar {
+				background-color: #c1c1c1;
+				height: 100%;
+			}
 		</style>
 	</head>
 	<body> 
@@ -123,6 +142,8 @@
 				}
 				return r;
 			}
+			
+			var zonesCache = {};
 			
 			function updateContent(data) {
 				$(".content").html('');
@@ -170,7 +191,17 @@
 						namelegend += '<img src="http://i0.kym-cdn.com/photos/images/original/000/915/652/b49.gif" style="margin-left: 5px; vertical-align: middle;" width="30" height="30">';
 					}
 					
-					$(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet.state.name + '</a></span>' + namelegend + '<span class="planet-progress"></span><div class="planet-details">' + details + '</div></div></div><hr>');
+					var zones_link = "";
+					
+					if(planet.state.active) {
+						zones_link = ' <a href="#/" style="font-size:15px" onclick="loadZones(' + planet.id + ')">inspect zones</a>';
+					}
+					
+					$(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet.state.name + '</a></span>' + namelegend + '<span class="planet-progress"></span>' + zones_link + '<div class="planet-details">' + details + '</div></div><div class="zones" style="margin-left: 150px;"></div></div><hr>');
+				}
+				
+				for(var i in zonesCache) {
+					updateZones(zonesCache[i]);
 				}
 				
 				console.log(planets);
@@ -196,6 +227,45 @@
 				first_mul = 1;
 			}
 			
+			function updateZones(data) {
+				var planet = JSON.parse(data).response.planets[0];
+				zonesCache[planet.id] = data;
+				
+				var dif_count_active = { 1: 0, 2: 0, 3: 0};
+				var dif_count_total = { 1: 0, 2: 0, 3: 0};
+				
+				var zones = '<table border="0" cellspacing="5" cellpadding="0">';
+				for(var i = 0; i < 8; i++) {
+					zones += '<tr>';
+					for(var j = 0; j < 12; j++) {
+						var z = planet.zones[i * 12 + j];
+						dif_count_total[z.difficulty]++;
+						if(!z.captured)
+							dif_count_active[z.difficulty]++;
+						zones += '<td class="cell difficulty-' + z.difficulty + '">';
+						zones += '<a href="https://steamcommunity.com/groups/' + z.leader.url + '" target="_blank"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars//' + z.leader.avatar.substr(0,2) + '/' + z.leader.avatar + '.jpg"></a>';
+						zones += '<div class="cell-progress"><div class="cell-progress-bar" style="width: ' + (z.captured ? 1 : z.capture_progress)*100 + '%;' + (z.captured ? 'background-color:white' : '') + '"></div></div>';
+						zones += '</td>';
+					}
+					zones += '</tr>';
+				}
+				zones += '</table>';
+				
+				function diffToName(i) {
+					if(i == 1) return "easy";
+					else if(i == 2) return "medium";
+					else if(i == 3) return "hard";
+				}
+				
+				for(var i = 1; i < 4; i++) {
+					zones += dif_count_active[i] + '/' + dif_count_total[i] + ' ' + diffToName(i) + ' zones remaining<br>';
+				}
+				
+				zones += '<br><span style="color:gray">(zones information does not refresh automatically)</span>';
+				
+				$("#planet-" + planet.id + " .zones").html(zones);
+			}
+			
 			function reload() {
 				$(".content").html('<div class="loading">Loading...</div>');
 				$.getJSON('https://allorigins.me/get?url=https%3A//community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/%3Flanguage%3Denglish&callback=?', function(data){
@@ -207,6 +277,18 @@
 			function loadrealtime() {
 				$.getJSON('https://api.codetabs.com/cors-proxy/https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/?active_only=1&language=english', function(data){
 					updateRealtime(JSON.stringify(data));
+				});
+			}
+			
+			var dirty_prevent_spam = false;
+			function loadZones(planet_id) {
+				if(dirty_prevent_spam)
+					return;
+				dirty_prevent_spam = true;
+				$("#planet-" + planet_id + " .zones").html("Loading zones...");
+				$.getJSON('https://api.codetabs.com/cors-proxy/https%3A%2F%2Fcommunity.steam-api.com%2FITerritoryControlMinigameService%2FGetPlanet%2Fv0001%2F%3Fid=' + planet_id, function(data){
+					updateZones(JSON.stringify(data));
+					setTimeout(function() { dirty_prevent_spam = false; }, 2500);
 				});
 			}
 			

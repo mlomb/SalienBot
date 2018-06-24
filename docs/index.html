@@ -193,9 +193,9 @@
 					
 					var zones_link = "";
 					
-					if(planet.state.active) {
+					//if(planet.state.active) { // Faalagorn request
 						zones_link = ' <a href="#/" style="font-size:15px" onclick="loadZones(' + planet.id + ')">inspect zones</a>';
-					}
+					//}
 					
 					$(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet.state.name + '</a></span>' + namelegend + '<span class="planet-progress"></span>' + zones_link + '<div class="planet-details">' + details + '</div></div><div class="zones" style="margin-left: 150px;"></div></div><hr>');
 				}
@@ -239,12 +239,17 @@
 					zones += '<tr>';
 					for(var j = 0; j < 12; j++) {
 						var z = planet.zones[i * 12 + j];
+						var hasLeader = 'leader' in z;
 						dif_count_total[z.difficulty]++;
 						if(!z.captured)
 							dif_count_active[z.difficulty]++;
-						var perc = ((z.captured ? 1 : z.capture_progress)*100).toFixed(2);
-						zones += '<td class="cell difficulty-' + z.difficulty + '" title="' + perc + '%\n\nLeader: ' + z.leader.name + '">';
+						var perc = ((z.captured ? 1 : (hasLeader ? z.capture_progress : 0))*100).toFixed(2);
+						zones += '<td class="cell difficulty-' + z.difficulty + '" title="' + perc + '%\n\nLeader: ' + (hasLeader ? z.leader.name : '-') + '">';
+						if(hasLeader) {
 						zones += '<a href="https://steamcommunity.com/groups/' + z.leader.url + '" target="_blank"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars//' + z.leader.avatar.substr(0,2) + '/' + z.leader.avatar + '.jpg"></a>';
+						} else {
+						zones += '<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg" style="width:32px;height:32px;">';
+						}
 						zones += '<div class="cell-progress"><div class="cell-progress-bar" style="width: ' + perc + '%;' + (z.captured ? 'background-color:white' : '') + '"></div></div>';
 						zones += '</td>';
 					}

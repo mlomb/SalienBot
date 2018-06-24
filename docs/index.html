@@ -242,9 +242,10 @@
 						dif_count_total[z.difficulty]++;
 						if(!z.captured)
 							dif_count_active[z.difficulty]++;
-						zones += '<td class="cell difficulty-' + z.difficulty + '">';
+						var perc = ((z.captured ? 1 : z.capture_progress)*100).toFixed(2);
+						zones += '<td class="cell difficulty-' + z.difficulty + '" title="' + perc + '%\n\nLeader: ' + z.leader.name + '">';
 						zones += '<a href="https://steamcommunity.com/groups/' + z.leader.url + '" target="_blank"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars//' + z.leader.avatar.substr(0,2) + '/' + z.leader.avatar + '.jpg"></a>';
-						zones += '<div class="cell-progress"><div class="cell-progress-bar" style="width: ' + (z.captured ? 1 : z.capture_progress)*100 + '%;' + (z.captured ? 'background-color:white' : '') + '"></div></div>';
+						zones += '<div class="cell-progress"><div class="cell-progress-bar" style="width: ' + perc + '%;' + (z.captured ? 'background-color:white' : '') + '"></div></div>';
 						zones += '</td>';
 					}
 					zones += '</tr>';

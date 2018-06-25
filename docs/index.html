@@ -155,7 +155,7 @@
 			function updateContent(data) {
 				$(".content").html('');
 				
-				var planets = JSON.parse(data).response.planets;
+				var planets = data.response.planets;
 				
 				for(var i in planets) {
 					var planet = planets[i];
@@ -216,7 +216,7 @@
 			}
 			
 			function updateRealtime(data) {
-				var planets = JSON.parse(data).response.planets;
+				var planets = data.response.planets;
 				
 				for(var i in planets) {
 					var planet = planets[i];
@@ -236,7 +236,7 @@
 			}
 			
 			function updateZones(data) {
-				var planet = JSON.parse(data).response.planets[0];
+				var planet = data.response.planets[0];
 				zonesCache[planet.id] = data;
 				
 				var dif_count_active = { 1: 0, 2: 0, 3: 0};
@@ -281,7 +281,7 @@
 			}
 			
 			function addToRegression(data){
-				var planets = JSON.parse(data).response.planets;
+				var planets = data.response.planets.planets;
 				
 				for(var i in planets) {
 					var planet = planets[i];
@@ -325,17 +325,17 @@
 			
 			function reload() {
 				$(".content").html('<div class="loading">Loading...</div>');
-				$.getJSON('http://www.whateverorigin.org/get?url=https%3A//community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/%3Flanguage%3Denglish&callback=?', function(data){
-					updateContent(data.contents);
-					updateRealtime(data.contents);
-					addToRegression(data.contents);
+				$.getJSON('https://pvporbit.com/salien_cache/planets.php', function(data){
+					updateContent(data);
+					updateRealtime(data);
+					addToRegression(data);
 				});
 			}
 			
 			function loadrealtime() {
-				$.getJSON('http://www.whateverorigin.org/get?url=https%3A%2F%2Fcommunity.steam-api.com%2FITerritoryControlMinigameService%2FGetPlanets%2Fv0001%2F%3Factive_only%3D1%26language%3Denglish&callback=?', function(data){
-					updateRealtime(data.contents);
-					addToRegression(data.contents);
+				$.getJSON('https://pvporbit.com/salien_cache/planets_active.php', function(data){
+					updateRealtime(data);
+					addToRegression(data);
 				});
 			}
 			
@@ -345,9 +345,9 @@
 					return;
 				dirty_prevent_spam = true;
 				$("#planet-" + planet_id + " .zones").html("Loading zones...");
-				$.getJSON('http://www.whateverorigin.org/get?url=https%3A%2F%2Fcommunity.steam-api.com%2FITerritoryControlMinigameService%2FGetPlanet%2Fv0001%2F%3Fid=' + planet_id + '&callback=?', function(data){
-					updateZones(data.contents);
-					addToRegression(data.contents);
+				$.getJSON('https://pvporbit.com/salien_cache/planet.php?id=' + planet_id, function(data){
+					updateZones(data);
+					addToRegression(data);
 					setTimeout(function() { dirty_prevent_spam = false; }, 2500);
 				});
 			}

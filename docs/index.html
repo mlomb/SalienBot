@@ -180,7 +180,7 @@
 					if(planet.state.active) {
 						clss += " active";
 						details = 'Joins: <span class="planet-joins"></span>' + (!planet.state.captured
-						 ? ' <span title="VERY ROUGH ETA -- using linear regression over the total % -- more time means more accuarity\nhowever this assumes the rate will not change, like less people joining because there are no more hard zones, etc. -- takes ~1 minute to measure something useful"> -- ETA: <span class="planet-eta" style="color: gray">(measuring)</span></span>' : '') + '<br>Players: <span class="planet-players"></span><br>';
+						 ? ' <span title="VERY ROUGH ETA using linear regression over the total percent.\nMore time means more accuracy, however this assumes the rate will not change, like less people joining because there are no more hard zones, etc.\nTakes ≈1 minute to measure something useful."> -- ETA: <span class="planet-eta" style="color: gray">(measuring)</span></span>' : '') + '<br>Players: <span class="planet-players"></span><br>';
 						if(!planet.state.captured) {
 							details += '<div class="progress"><div class="progress-bar"></div></div>';
 						} else {

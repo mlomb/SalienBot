@@ -354,7 +354,7 @@
 			
 			function loadvis() {
 				$.ajax({
-					url: "http://pvporbit.com/salien_cache/vis.php"
+					url: "https://pvporbit.com/salien_cache/vis.php"
 				}).done(function(data) {
 					$("#visits").animateNumber({ number: data.visits, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul_vis);
 					first_mul_vis = 1;

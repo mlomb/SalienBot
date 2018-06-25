@@ -282,7 +282,7 @@
 			}
 			
 			function addToRegression(data){
-				var planets = data.response.planets.planets;
+				var planets = data.response.planets;
 				
 				for(var i in planets) {
 					var planet = planets[i];
@@ -327,6 +327,7 @@
 			function reload() {
 				$(".content").html('<div class="loading">Loading...</div>');
 				$.getJSON('https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/?active_only=0', function(data){
+					first_mul = 0;
 					updateContent(data);
 					updateRealtime(data);
 					addToRegression(data);

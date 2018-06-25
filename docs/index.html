@@ -325,7 +325,7 @@
 			
 			function reload() {
 				$(".content").html('<div class="loading">Loading...</div>');
-				$.getJSON('https://allorigins.me/get?url=https%3A//community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/%3Flanguage%3Denglish&callback=?', function(data){
+				$.getJSON('http://www.whateverorigin.org/get?url=https%3A//community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/%3Flanguage%3Denglish&callback=?', function(data){
 					updateContent(data.contents);
 					updateRealtime(data.contents);
 					addToRegression(data.contents);
@@ -333,7 +333,7 @@
 			}
 			
 			function loadrealtime() {
-				$.getJSON('https://allorigins.me/get?url=https%3A%2F%2Fcommunity.steam-api.com%2FITerritoryControlMinigameService%2FGetPlanets%2Fv0001%2F%3Factive_only%3D1%26language%3Denglish&callback=?', function(data){
+				$.getJSON('http://www.whateverorigin.org/get?url=https%3A%2F%2Fcommunity.steam-api.com%2FITerritoryControlMinigameService%2FGetPlanets%2Fv0001%2F%3Factive_only%3D1%26language%3Denglish&callback=?', function(data){
 					updateRealtime(data.contents);
 					addToRegression(data.contents);
 				});
@@ -345,7 +345,7 @@
 					return;
 				dirty_prevent_spam = true;
 				$("#planet-" + planet_id + " .zones").html("Loading zones...");
-				$.getJSON('https://allorigins.me/get?url=https%3A%2F%2Fcommunity.steam-api.com%2FITerritoryControlMinigameService%2FGetPlanet%2Fv0001%2F%3Fid=' + planet_id + '&callback=?', function(data){
+				$.getJSON('http://www.whateverorigin.org/get?url=https%3A%2F%2Fcommunity.steam-api.com%2FITerritoryControlMinigameService%2FGetPlanet%2Fv0001%2F%3Fid=' + planet_id + '&callback=?', function(data){
 					updateZones(data.contents);
 					addToRegression(data.contents);
 					setTimeout(function() { dirty_prevent_spam = false; }, 2500);

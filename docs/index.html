@@ -485,6 +485,7 @@
 			
 			init();
 			setInterval(function() { loadPlanets(1); visIncrease(); }, 1000 * REALTIME_UPDATE_RATE);
+			setTimeout(function() { location.reload(); }, 1000 * 60 * 30); // check for page updates
 			setInterval(function() {
 				$('[data-prediction]').each(function() {
 					var pred = parseFloat($(this).attr('data-prediction'));

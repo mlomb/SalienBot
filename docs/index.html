@@ -144,6 +144,18 @@
 			.overview {
 				text-align: center;
 			}
+			
+			#top-clans-list {
+				height: 48px;
+				width: 304px;
+				margin: auto;
+				padding-top: 8px;
+			}
+			#top-clans-list .clan {
+				float: left;
+				width: 32px;
+				padding: 3px;
+			}
 		</style>
 	</head>
 	<body> 
@@ -195,6 +207,51 @@
 				$("#pbar-easy").text(diffs[1] > 0 ? diffs[1] : '');
 				$("#pbar-medium").text(diffs[2] > 0 ? diffs[2] : '');
 				$("#pbar-hard").text(diffs[3] > 0 ? diffs[3] : '');
+				
+				// Top Clans
+				var clans = [];
+				
+				for(var i in planets) {
+					var planet = planets[i];
+					if(planet.state.active) {
+						for(var j in planet.zones) {
+							var zone = planet.zones[j];
+							if(zone.captured) {
+								// already?
+								var clan_i = -1;
+								for(var k in clans) {
+									if(clans[k].accountid == zone.leader.accountid) {
+										clan_i = k;
+										break;
+									}
+								}
+								
+								if(clan_i == -1) {
+									clan_i = clans.length;
+									clans.push(zone.leader);
+									clans[clan_i].zones_captured = 1;
+								} else
+									clans[clan_i].zones_captured++;
+							}
+						}
+					}
+				}
+				
+				clans.sort(function(a, b)
+				{
+						return b.zones_captured - a.zones_captured;
+				});
+				
+				var clans_top = "";
+				
+				//var max_size = 64;
+				
+				for(var i = 0; i < Math.min(8, clans.length); i++) {
+					//var img_size = (clans[i].zones_captured / clans[0].zones_captured) * max_size;
+					clans_top += '<div class="clan" title="' + clans[i].name + ' captured ' + clans[i].zones_captured + ' zones!"><a href="https://steamcommunity.com/groups/' + clans[i].url + '" target="_blank"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars//' + clans[i].avatar.substr(0,2) + '/' + clans[i].avatar + '.jpg"></a>' + clans[i].zones_captured + '</div>';
+				}
+				
+				$('#top-clans-list').html(clans_top);
 			}
 			
 			function updatePlanet(id) {
@@ -297,7 +354,7 @@
 				
 				console.log(planets);
 				
-				$(".content").append('<div class="overview">Remaining zones distribution<br><div class="progress-stacked" style="width: 500px; margin: 7px auto;"><div id="pbar-easy" title="Easy zones" style="border-radius: 4px 0px 0px 4px;" class="progress-stacked-bar"></div><div id="pbar-medium" title="Medium zones" class="progress-stacked-bar"></div><div id="pbar-hard" title="Hard zones" style="border-radius: 0px 4px 4px 0px;" class="progress-stacked-bar"></div></div></div><hr>');
+				$(".content").append('<div class="overview">Remaining zones distribution<br><div class="progress-stacked" style="width: 500px; margin: 7px auto;"><div id="pbar-easy" title="Easy zones" style="border-radius: 4px 0px 0px 4px;" class="progress-stacked-bar"></div><div id="pbar-medium" title="Medium zones" class="progress-stacked-bar"></div><div id="pbar-hard" title="Hard zones" style="border-radius: 0px 4px 4px 0px;" class="progress-stacked-bar"></div></div><div class="top-clans">Top clans<br><div id="top-clans-list"></div></div></div><hr>');
 				
 				for(var i in planets) {
 					var planet = planets[i];
@@ -373,8 +430,9 @@
 					if(active == 0) {
 						for(var i in planets) {
 							var planet = planets[i];
-							if(planet.state.active && !planet.state.captured) {
-								loadPlanet(planet.id);
+							if(planet.state.active) {
+								if(!planet.zones || !planet.state.captured)
+									loadPlanet(planet.id);
 							}
 						}
 					}

@@ -53,6 +53,37 @@
 				transition-property: width, background-color;
 				box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
 			}
+			
+			.progress-stacked {
+				height: 20px;
+				overflow: hidden;
+				
+				padding: 4px;
+				background: rgba(0, 0, 0, 0.25);
+				border-radius: 6px;
+				box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0);
+			}
+			.progress-stacked-bar {
+				float: left;
+				width: 0;
+				height: 100%;
+				font-size: 12px;
+				line-height: 20px;
+				color: #fff;
+				text-align: center;
+				background-color: #337ab7;
+				-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+				box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+				-webkit-transition: width .6s ease;
+				-o-transition: width .6s ease;
+				transition: width .6s ease;
+				
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+				transition: 0.4s linear;
+				transition-property: width, background-color;
+				box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+			}
+			
 			.planet .planet-img {
 				width: 128px;
 				height: 128px;
@@ -96,10 +127,6 @@
 				height: 48px;
 				text-align: center;
 			}
-			.zones .cell.difficulty-1 { background-color: #0a8200e3; }
-			.zones .cell.difficulty-2 { background-color: #828200e3; }
-			.zones .cell.difficulty-3 { background-color: #820000e3; }
-			
 			.zones .cell-progress {
 				width: 32px;
 				height: 5px;
@@ -108,6 +135,14 @@
 			.zones .cell-progress-bar {
 				background-color: #c1c1c1;
 				height: 100%;
+			}
+			
+			.zones .cell.difficulty-1, #pbar-easy { background-color: #0a8200e3; }
+			.zones .cell.difficulty-2, #pbar-medium { background-color: #828200e3; }
+			.zones .cell.difficulty-3, #pbar-hard { background-color: #820000e3; }
+			
+			.overview {
+				text-align: center;
 			}
 		</style>
 	</head>
@@ -124,121 +159,70 @@
 		<script src="https://cdn.rawgit.com/mckamey/countdownjs/master/countdown.min.js" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-animateNumber/0.0.14/jquery.animateNumber.min.js"></script>
 		<script>
-			var REALTIME_UPDATE_RATE = 10;
-			var first_mul = 0;
-			var page_load_time = Date.now();
+			const REALTIME_UPDATE_RATE = 10;
 			var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
-			var planet_names = JSON.parse('{"1":"Dark Humor Planet","2":"Pirates Planet","3":"Fine Art Planet","4":"Mind-Melters Planet","5":"Surreal Wanderlust Planet","6":"Behind the Screen Planet","7":"Cyberpunk Planet III","8":"Planet of Mold-breaking Metroidvanias I","9":"Mythology Planet","10":"Time Loops Planet","11":"Glory Days Planet III","12":"Planet of Remastered Classics","13":"Rhythm Planet I","14":"Planet of Tanks","15":"Planet of Under-Water Exploration I","16":"Abstract Planet","17":"Existential Horror Planet","18":"Fighting Planet I","19":"Hexes Planet","20":"Reboots Planet I","21":"Almost Like A Real Job Planet","22":"Glory Days Planet I","24":"Planet of Science!","25":"Speedrunners Paradise Planet","26":"Take It Easy Planet I","27":"Amnesia Planet","28":"Isometric Planet","29":"Planet of Mold-breaking Metroidvanias II","30":"Programming Planet I","31":"Planet of Spikes","32":"Planet of Alternate History","33":"Bullet Hell Planet","34":"Mouse-Only Planet","35":"Sports Planet","36":"Time Manipulation Planet","37":"Dusty Planet","38":"Glory Days Planet II","39":"Planet of Jumpless Platformers","40":"Memes Planet","41":"Take it Easy Planet II","42":"Cyberpunk Planet II","508":"Fighting Planet II","525":"Planet of Galactic Conquest","526":"Reboots Planet II","527":"Rhythm Planet II","528":"Planet of Megaman-Likes","529":"Programming Planet II","530":"Visual Novel Planet","531":"Under Water Exploration Planet II","532":"Hand-Drawn Planet","533":"Cyberpunk Planet I","534":"Planet of Mold-breaking Metroidvanias III"}'); // Steam allowed all origins only if you dont send &language so...
+			var planets = [];
 			
-			function updateProgressBar(selector, amount) {
-				var col = "magenta";
-				if(amount < 0.05) col = "#f63a0f";
-				else if(amount < 0.25) col = "#f27011";
-				else if(amount < 0.50) col = "#f2b01e";
-				else if(amount < 0.75) col = "#f2d31b";
-				else col = "#86e01e";
-				
-				$(selector).css("width", amount * 100 + "%").css("background-color", col);
-			}
-			
-			function planetPriority(planet) {
-				var r = -1;
-				if(planet.state.active) {				
-					if(planet.state.captured)
-						r = 0;
-					else
-						r = planet.state.capture_progress;
-				}
-				return r;
-			}
-			
-			var zonesCache = {};
+			// ETA
 			var etaEstimate = {};
+			var page_load_time = Date.now();
 			
-			function updateContent(data) {
-				$(".content").html('');
-				
-				var planets = data.response.planets;
+			function updateOverview() {
+				var diffs = {
+					1: 0, // EASY
+					2: 0, // MEDIUM
+					3: 0  // HARD
+				};
 				
 				for(var i in planets) {
 					var planet = planets[i];
-					planet.sortval = planetPriority(planet);
+					if(planet.state.active && !planet.state.captured) {
+						for(var j in planet.zones) {
+							var zone = planet.zones[j];
+							if(!zone.captured) {
+								diffs[zone.difficulty]++;
+							}
+						}
+					}
 				}
 				
-				planets.sort(function(a, b)
-				{
-					if(b.sortval == a.sortval)
-						return b.id - a.id;
-					else
-						return b.sortval - a.sortval;
+				var tot = diffs[1]+diffs[2]+diffs[3];
+				
+				$("#pbar-easy").css("width", (diffs[1]/tot)*100 + "%");
+				$("#pbar-medium").css("width", (diffs[2]/tot)*100 + "%");
+				$("#pbar-hard").css("width", (diffs[3]/tot)*100 + "%");
+				
+				$("#pbar-easy").text(diffs[1] > 0 ? diffs[1] : '');
+				$("#pbar-medium").text(diffs[2] > 0 ? diffs[2] : '');
+				$("#pbar-hard").text(diffs[3] > 0 ? diffs[3] : '');
+			}
+			
+			function updatePlanet(id) {
+				var planet = planets.find(function(element) {
+					return element.id == id;
 				});
 				
-				for(var i in planets) {
-					var planet = planets[i];
-					//console.log(planet);
-					
-					var clss = "";
-					var details = "";
-					
-					if(planet.state.active) {
-						clss += " active";
-						details = 'Joins: <span class="planet-joins"></span>' + (!planet.state.captured
-						 ? ' <span title="VERY ROUGH ETA using linear regression over the total percent.\nMore time means more accuracy, however this assumes the rate will not change, like less people joining because there are no more hard zones, etc.\nTakes ≈1 minute to measure something useful."> -- ETA: <span class="planet-eta" style="color: gray">(measuring)</span></span>' : '') + '<br>Players: <span class="planet-players"></span><br>';
-						if(!planet.state.captured) {
-							details += '<div class="progress"><div class="progress-bar"></div></div>';
-						} else {
-							details += '<br><a href="https://store.steampowered.com/prizes/winners/' + planet.state.giveaway_id + '" target="_blank">Check winners</a>';
-						}
-					} else {
-						details = 'Not active yet';
-					}
-					if(planet.state.captured) {
-						clss = " captured";
-					}
-					
-					var namelegend = "";
-					
-					if(planet.id == 40) {
-						namelegend += '<img src="http://i0.kym-cdn.com/photos/images/original/000/915/652/b49.gif" style="margin-left: 5px; vertical-align: middle;" width="30" height="30">';
-					}
-					
-					var zones_link = "";
-					
-					//if(planet.state.active) { // Faalagorn request
-						zones_link = ' <a href="#/" style="font-size:15px" onclick="loadZones(' + planet.id + ')">inspect zones</a>';
-					//}
-					
-					$(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet_names[planet.id] + '</a></span>' + namelegend + '<span class="planet-progress"></span>' + zones_link + '<div class="planet-details">' + details + '</div></div><div class="zones" style="margin-left: 150px;"></div></div><hr>');
+				var first_mul = 1;
+				if($("#planet-" + planet.id + " .planet-joins").text().length == 0)
+					first_mul = 0;
+				
+				if(planet.state.capture_progress) {
+					$("#planet-" + planet.id + " .planet-joins").animateNumber({ number: planet.state.total_joins, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul, 'linear');
+					$("#planet-" + planet.id + " .planet-players").animateNumber({ number: planet.state.current_players, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul, 'linear');
+					$("#planet-" + planet.id + " .planet-progress").text((planet.state.capture_progress*100).toFixed(2) + "%");
+					updateProgressBar("#planet-" + planet.id + " .progress-bar", planet.state.capture_progress);
 				}
 				
-				for(var i in zonesCache) {
-					updateZones(zonesCache[i]);
-				}
-				
-				console.log(planets);
+				updateZone(planet.id);
 			}
 			
-			function updateRealtime(data) {
-				var planets = data.response.planets;
+			function updateZone(id) {
+				var planet = planets.find(function(element) {
+					return element.id == id;
+				});
 				
-				for(var i in planets) {
-					var planet = planets[i];
-					if(planet.state.active) {						
-						$("#planet-" + planet.id + " .planet-joins").animateNumber({ number: planet.state.total_joins, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul);
-						$("#planet-" + planet.id + " .planet-players").animateNumber({ number: planet.state.current_players, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul);
-						$("#planet-" + planet.id + " .planet-progress").text((planet.state.capture_progress*100).toFixed(2) + "%");
-						
-						
-						updateProgressBar("#planet-" + planet.id + " .progress-bar", planet.state.capture_progress);
-					}
-				}
-				
-				first_mul = 1;
-			}
-			
-			function updateZones(data) {
-				var planet = data.response.planets[0];
-				zonesCache[planet.id] = data;
+				if(!planet.showing_zones)
+					return;
 				
 				var dif_count_active = { 1: 0, 2: 0, 3: 0};
 				var dif_count_total = { 1: 0, 2: 0, 3: 0};
@@ -276,106 +260,202 @@
 					zones += dif_count_active[i] + '/' + dif_count_total[i] + ' ' + diffToName(i) + ' zones remaining<br>';
 				}
 				
-				zones += '<br><span style="color:gray">(zones information does not refresh automatically)</span>';
-				
 				$("#planet-" + planet.id + " .zones").html(zones);
 			}
 			
-			function addToRegression(data){
-				var planets = data.response.planets;
+			function refreshPlanet(planet) {
+				var found = planets.find(function(element) {
+					return element.id == planet.id;
+				});
+				
+				if(!found) {
+					found = { id: planet.id, last_zones_update: 0, showing_zones: false };
+					planets.push(found);
+				}
+				
+				// refresh data
+				found.state = planet.state;
+				found.giveaway_apps = planet.giveaway_apps;
+				found.top_clans = planet.top_clans;
+				if(planet.zones)
+					found.zones = planet.zones;
+				found.sortval = planetSortVal(planet);
+				
+				addToRegression(planet);
+			}
+			
+			function buildLayout() {
+				$(".content").html('');
+				
+				planets.sort(function(a, b)
+				{
+					if(b.sortval == a.sortval)
+						return b.id - a.id;
+					else
+						return b.sortval - a.sortval;
+				});
+				
+				console.log(planets);
+				
+				$(".content").append('<div class="overview">Remaining zones distribution<br><div class="progress-stacked" style="width: 500px; margin: 7px auto;"><div id="pbar-easy" title="Easy zones" style="border-radius: 4px 0px 0px 4px;" class="progress-stacked-bar"></div><div id="pbar-medium" title="Medium zones" class="progress-stacked-bar"></div><div id="pbar-hard" title="Hard zones" style="border-radius: 0px 4px 4px 0px;" class="progress-stacked-bar"></div></div></div><hr>');
 				
 				for(var i in planets) {
 					var planet = planets[i];
 					
-					if(planet.state.active && !planet.state.captured) {
-						if(!(planet.id in etaEstimate))
-							etaEstimate[planet.id] = { x: [], y: [] };
-						
-						etaEstimate[planet.id].x.push(Math.floor(((Date.now() - page_load_time) / 1000)));
-						etaEstimate[planet.id].y.push(planet.state.capture_progress*100);
+					var clss = "";
+					var details = "";
+					
+					if(planet.state.active) {
+						clss += " active";
+						details = 'Joins: <span class="planet-joins"></span>' + (!planet.state.captured
+						 ? ' <span title="VERY ROUGH ETA using linear regression over the total percent.\nMore time means more accuracy, however this assumes the rate will not change, like less people joining because there are no more hard zones, etc.\nTakes ≈1 minute to measure something useful."> -- ETA: <span class="planet-eta" style="color: gray">(measuring)</span></span>' : '') + '<br>Players: <span class="planet-players"></span><br>';
+						if(!planet.state.captured) {
+							details += '<div class="progress"><div class="progress-bar"></div></div>';
+						} else {
+							details += '<br><a href="https://store.steampowered.com/prizes/winners/' + planet.state.giveaway_id + '" target="_blank">Check winners</a>';
+						}
+					} else {
+						details = 'Not active yet';
 					}
+					if(planet.state.captured) {
+						clss = " captured";
+					}
+					
+					var namelegend = "";
+					
+					if(planet.id == 40) {
+						namelegend += '<img src="http://i0.kym-cdn.com/photos/images/original/000/915/652/b49.gif" style="margin-left: 5px; vertical-align: middle;" width="30" height="30">';
+					}
+					
+					$(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet.state.name + '</a></span>' + namelegend + '<span class="planet-progress"></span> <a href="#/" style="font-size:15px" onclick="inspectZone(' + planet.id + ')">inspect zones</a><div class="planet-details">' + details + '</div></div><div class="zones" style="margin-left: 150px;margin-top:15px"></div></div><hr>');
+					
+					updatePlanet(planet.id);
 				}
 				
-				for(var i in etaEstimate) {
-					var planet = planets[i];
-					
-					var ys = JSON.parse(JSON.stringify(etaEstimate[i].y));
-					for(var j in etaEstimate[i].y) {
-						ys[j] = (ys[j] - etaEstimate[i].y[0]);
-					}
-					
-					var lr = linearRegression(ys, etaEstimate[i].x);
-					
-					var x = ((100 - etaEstimate[i].y[0]) - (lr.intercept)) / lr.slope;
-					if(isFinite(x) && ys.length >= 5 /* at least some data points */){
-						var prediction = x * 1000 + page_load_time;
-						/*
-						console.log(i + ": ");
-						console.log(lr);
-						console.log(etaEstimate[i].x);
-						console.log(ys);
-						console.log(prediction);
-						*/
+				updateOverview();
+			}
+			
+			function init() {
+				$(".content").html('<div class="loading">Loading...</div>');
+				visIncrease();
+				loadPlanets(0, function() {
+					buildLayout();
+				});
+			}
+			
+			function loadPlanet(id) {
+				var planet = planets.find(function(element) {
+					return element.id == id;
+				});
+				
+				// gather zones with 100s of cache
+				if(Date.now() - planet.last_zones_update > 1000 * 100) {
+					planet.last_zones_update = Date.now();
+					$.getJSON('https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanet/v0001/?id=' + planet.id + '&language=english', function(data){
+						refreshPlanet(data.response.planets[0]);
 						
-						$("#planet-" + i + " .planet-eta").attr('data-prediction', prediction);
-					} else {
-						$("#planet-" + i + " .planet-eta").attr('data-prediction', 0);
-					}
+						updateOverview();
+						updatePlanet(planet.id);
+					});
 				}
 			}
 			
-			function reload() {
-				$(".content").html('<div class="loading">Loading...</div>');
-				$.getJSON('https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/?active_only=0', function(data){
-					first_mul = 0;
-					updateContent(data);
-					updateRealtime(data);
-					addToRegression(data);
-				});
-				loadvis();
-			}
-			
-			function loadrealtime() {
-				$.getJSON('https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/?active_only=1', function(data){
-					updateRealtime(data);
-					addToRegression(data);
-				});
-				loadvis();
-			}
-			
-			function loadZones(planet_id) {
-				$("#planet-" + planet_id + " .zones").html("Loading zones...");
-				$.getJSON('https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanet/v0001/?id=' + planet_id, function(data){
-					updateZones(data);
-					addToRegression(data);
+			function loadPlanets(active, cb) {
+				$.getJSON('https://community.steam-api.com/ITerritoryControlMinigameService/GetPlanets/v0001/?active_only=' + active + '&language=english', function(data){
+					for(var i in data.response.planets) {
+						refreshPlanet(data.response.planets[i]);
+						updatePlanet(data.response.planets[i].id);
+					}
+					
+					if(cb)
+						cb();
+					
+					if(active == 0) {
+						for(var i in planets) {
+							var planet = planets[i];
+							if(planet.state.active && !planet.state.captured) {
+								loadPlanet(planet.id);
+							}
+						}
+					}
+					
+					updateOverview();
 				});
 			}
 			
-			var first_mul_vis = 0;
+			function inspectZone(id) {
+				var planet = planets.find(function(element) {
+					return element.id == id;
+				});
+				
+				planet.showing_zones = true;
+				$("#planet-" + id + " .zones").html("Loading zones...");
+				if(!planet.zones)
+					loadPlanet(planet.id);
+				else
+					updateZone(planet.id);
+			}
 			
-			function loadvis() {
+			function planetSortVal(planet) {
+				var r = -1;
+				if(planet.state.active) {				
+					if(planet.state.captured)
+						r = 0;
+					else
+						r = planet.state.capture_progress;
+				}
+				return r;
+			}
+			
+			function updateProgressBar(selector, amount) {
+				var col = "magenta";
+				if(amount < 0.05) col = "#f63a0f";
+				else if(amount < 0.25) col = "#f27011";
+				else if(amount < 0.50) col = "#f2b01e";
+				else if(amount < 0.75) col = "#f2d31b";
+				else col = "#86e01e";
+				
+				$(selector).css("width", amount * 100 + "%").css("background-color", col);
+			}
+			
+			function visIncrease() {
 				$.ajax({
 					url: "https://pvporbit.com/salien_cache/vis.php"
 				}).done(function(data) {
-					$("#visits").animateNumber({ number: data.visits, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul_vis);
-					first_mul_vis = 1;
+					var first_mul = 1;
+					if($("#visits").text() == '...')
+						first_mul = 0;
+					$("#visits").animateNumber({ number: data.visits, numberStep: comma_separator_number_step }, REALTIME_UPDATE_RATE * 1000 * first_mul);
 				});
 			}
 			
-			reload();
-			setInterval(reload, 1000 * 60 * 5);
-			setInterval(loadrealtime, 1000 * REALTIME_UPDATE_RATE);
-			setTimeout(function() { location.reload(); }, 1000 * 60 * 60); // check for page updates
 			
-			setInterval(function() {
-				$('[data-prediction]').each(function() {
-					var pred = parseFloat($(this).attr('data-prediction'));
-					if(pred > 0)
-						$(this).text(countdown(moment(new Date(pred))).toString());
-					else
-						$(this).text('(measuring)');
-				});
-			}, 100);
+			function addToRegression(planet){
+				if(planet.state.active && !planet.state.captured) {
+					if(!(planet.id in etaEstimate))
+						etaEstimate[planet.id] = { x: [], y: [] };
+					
+					etaEstimate[planet.id].x.push(Math.floor(((Date.now() - page_load_time) / 1000)));
+					etaEstimate[planet.id].y.push(planet.state.capture_progress*100);
+				
+					// Estimate
+					var ys = JSON.parse(JSON.stringify(etaEstimate[planet.id].y));
+					for(var j in etaEstimate[planet.id].y) {
+						ys[j] = (ys[j] - etaEstimate[planet.id].y[0]);
+					}
+					
+					var lr = linearRegression(ys, etaEstimate[planet.id].x);
+					
+					var x = ((100 - etaEstimate[planet.id].y[0]) - (lr.intercept)) / lr.slope;
+					if(isFinite(x) && ys.length >= 5 /* at least some data points */){
+						var prediction = x * 1000 + page_load_time;
+						
+						$("#planet-" + planet.id + " .planet-eta").attr('data-prediction', prediction);
+					} else {
+						$("#planet-" + planet.id + " .planet-eta").attr('data-prediction', 0);
+					}
+				}
+			}
 			
 			// shamelessly stolen from http://trentrichardson.com/2010/04/06/compute-linear-regressions-in-javascript/
 			function linearRegression(y,x){
@@ -402,6 +482,19 @@
 				
 				return lr;
 			}
+			
+			init();
+			setInterval(function() { loadPlanets(1); visIncrease(); }, 1000 * REALTIME_UPDATE_RATE);
+			setInterval(function() {
+				$('[data-prediction]').each(function() {
+					var pred = parseFloat($(this).attr('data-prediction'));
+					if(pred > 0)
+						$(this).text(countdown(moment(new Date(pred))).toString());
+					else
+						$(this).text('(measuring)');
+				});
+			}, 100);
+			
 		</script>
 	</body>
 </html>

@@ -398,7 +398,7 @@
 					var namelegend = "";
 					
 					if(planet.id == 40) {
-						namelegend += '<img src="/angry-pepe.gif" alt="Angry pepe" style="margin-left: 5px; vertical-align: middle;" width="30" height="30">';
+						namelegend += '<img src="angry-pepe.gif" alt="Angry pepe" style="margin-left: 5px; vertical-align: middle;" width="30" height="30">';
 					}
 					
 					$(".content").append('<div id="planet-' + planet.id + '" class="planet' + clss + '"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/saliengame/planets/' + planet.state.image_filename + '" class="planet-img" alt="' + planet.state.name + '"><div class="planet-info"><span class="planet-name"><a style="color: inherit" target="_blank" href="https://store.steampowered.com/prizes/view/' + planet.state.giveaway_id + '">' + planet.state.name + '</a></span>' + namelegend + '<span class="planet-progress"></span> <a href="#/" style="font-size:15px" onclick="inspectZone(' + planet.id + ')">inspect zones</a><div class="planet-details">' + details + '</div></div><div class="zones" style="margin-left: 150px;margin-top:15px"></div></div><hr>');
@@ -425,7 +425,7 @@
 				// gather zones with 100s of cache
 				if(Date.now() - planet.last_zones_update > 1000 * 100) {
 					planet.last_zones_update = Date.now();
-					$.getJSON('/planet-' + planet.id + '.json', function(data){
+					$.getJSON('planet-' + planet.id + '.json', function(data){
 						refreshPlanet(data/*.response.planets[0]*/);
 						
 						updateOverview();
@@ -435,7 +435,7 @@
 			}
 			
 			function loadPlanets(active, cb) {
-				$.getJSON('/getplanets_english.json', function(data){
+				$.getJSON('getplanets_english.json', function(data){
 					for(var i in data/*.response.planets*/) {
 						refreshPlanet(data/*.response.planets*/[i]);
 						updatePlanet(data/*.response.planets*/[i].id);

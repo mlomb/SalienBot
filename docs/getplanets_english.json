@@ -1,0 +1,3293 @@
+[
+	{
+		"id": "1",
+		"state": {
+			"name": "Dark Humor Planet",
+			"image_filename": "Planet47.png",
+			"map_filename": "47.png",
+			"cloud_filename": "",
+			"land_filename": "47.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106764262",
+			"active": true,
+			"activation_time": 1529540890,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529678446,
+			"total_joins": 1443625,
+			"current_players": 423666,
+			"priority": 1,
+			"tag_ids": "5923,4282"
+		},
+		"giveaway_apps": [
+			368360,
+			597170,
+			666570,
+			335670
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 93
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 3
+			}
+		]
+	},
+	{
+		"id": "2",
+		"state": {
+			"name": "Pirates Planet",
+			"image_filename": "Planet6.png",
+			"map_filename": "6.png",
+			"cloud_filename": "",
+			"land_filename": "6.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106807890",
+			"active": true,
+			"activation_time": 1529540898,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529644953,
+			"total_joins": 1088825,
+			"current_players": 419216,
+			"priority": 2,
+			"tag_ids": "1681,6910"
+		},
+		"giveaway_apps": [
+			242050,
+			420290,
+			418180,
+			657690
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 95
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteaмDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "3",
+		"state": {
+			"name": "Fine Art Planet",
+			"image_filename": "Planet46.png",
+			"map_filename": "46.png",
+			"cloud_filename": "",
+			"land_filename": "46.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106813905",
+			"active": true,
+			"activation_time": 1529540904,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529687335,
+			"total_joins": 1318825,
+			"current_players": 442149,
+			"priority": 3,
+			"tag_ids": "6815,21"
+		},
+		"giveaway_apps": [
+			420060,
+			557600,
+			367520,
+			205020
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 87
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 9
+			}
+		]
+	},
+	{
+		"id": "4",
+		"state": {
+			"name": "Mind-Melters Planet",
+			"image_filename": "Planet19.png",
+			"map_filename": "19.png",
+			"cloud_filename": "",
+			"land_filename": "19.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106107084998",
+			"active": true,
+			"activation_time": 1529540912,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529725261,
+			"total_joins": 598429,
+			"current_players": 57693,
+			"priority": 4,
+			"tag_ids": "1664,3968"
+		},
+		"giveaway_apps": [
+			219890,
+			497780,
+			437920,
+			204220
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 79
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 13
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteaмDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 4
+			}
+		]
+	},
+	{
+		"id": "5",
+		"state": {
+			"name": "Surreal Wanderlust Planet",
+			"image_filename": "Planet24.png",
+			"map_filename": "24.png",
+			"cloud_filename": "",
+			"land_filename": "24.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106801218",
+			"active": true,
+			"activation_time": 1529540919,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529749046,
+			"total_joins": 1184499,
+			"current_players": 91756,
+			"priority": 5,
+			"tag_ids": "1710,492"
+		},
+		"giveaway_apps": [
+			207690,
+			676480,
+			443880,
+			600370
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 78
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteaмDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 11
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 5
+			},
+			{
+				"clan_info": {
+					"accountid": 6502906,
+					"name": "GrabFreeGames",
+					"avatar": "46cc1fb9f4453f06e9ef5cc40ef90f1d06d779c7",
+					"url": "GrabFreeGames"
+				},
+				"num_zones_controled": 1
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "6",
+		"state": {
+			"name": "Behind the Screen Planet",
+			"image_filename": "Planet8.png",
+			"map_filename": "8.png",
+			"cloud_filename": "",
+			"land_filename": "8.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106810673",
+			"active": true,
+			"activation_time": 1529646021,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529835509,
+			"total_joins": 3566522,
+			"current_players": 343611,
+			"priority": 6,
+			"tag_ids": "492,13782"
+		},
+		"giveaway_apps": [
+			553950,
+			405640,
+			390040,
+			323380
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 59
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteaмDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 26
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 7
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 4
+			}
+		]
+	},
+	{
+		"id": "7",
+		"state": {
+			"name": "Cyberpunk Planet III",
+			"image_filename": "Planet43.png",
+			"map_filename": "43.png",
+			"cloud_filename": "",
+			"land_filename": "43.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106812566",
+			"active": true,
+			"activation_time": 1529678686,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529772729,
+			"total_joins": 2577722,
+			"current_players": 547359,
+			"priority": 7,
+			"tag_ids": "4115,5030"
+		},
+		"giveaway_apps": [
+			337000,
+			250260,
+			261510,
+			250520
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 78
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 13
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteaмDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 4
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "8",
+		"state": {
+			"name": "Planet of Mold-breaking Metroidvanias I",
+			"image_filename": "Planet3.png",
+			"map_filename": "3.png",
+			"cloud_filename": "",
+			"land_filename": "3.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106828581",
+			"active": true,
+			"activation_time": 1529687472,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529813191,
+			"total_joins": 2144879,
+			"current_players": 169133,
+			"priority": 8,
+			"tag_ids": "1628,1664"
+		},
+		"giveaway_apps": [
+			340000,
+			251730,
+			201420,
+			334940
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 66
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteaмDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 21
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 8
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "9",
+		"state": {
+			"name": "Mythology Planet",
+			"image_filename": "Planet16.png",
+			"map_filename": "16.png",
+			"cloud_filename": "",
+			"land_filename": "16.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106830610",
+			"active": true,
+			"activation_time": 1529725379,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529845740,
+			"total_joins": 2438477,
+			"current_players": 288709,
+			"priority": 9,
+			"tag_ids": "16094,21"
+		},
+		"giveaway_apps": [
+			208750,
+			323580,
+			320040,
+			269050
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 66
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteaмDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 15
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 14
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "10",
+		"state": {
+			"name": "Time Loops Planet",
+			"image_filename": "Planet23.png",
+			"map_filename": "23.png",
+			"cloud_filename": "",
+			"land_filename": "23.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106786826",
+			"active": true,
+			"activation_time": 1529749040,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529853340,
+			"total_joins": 2217976,
+			"current_players": 288175,
+			"priority": 10,
+			"tag_ids": "10679,21"
+		},
+		"giveaway_apps": [
+			376520,
+			329930,
+			609490,
+			455820
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 65
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 19
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 10
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 2
+			}
+		]
+	},
+	{
+		"id": "11",
+		"state": {
+			"name": "Glory Days Planet III",
+			"image_filename": "Planet2.png",
+			"map_filename": "2.png",
+			"cloud_filename": "",
+			"land_filename": "2.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106109423161",
+			"active": true,
+			"activation_time": 1529773145,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529874896,
+			"total_joins": 2136393,
+			"current_players": 311056,
+			"priority": 11,
+			"tag_ids": "1693,4004"
+		},
+		"giveaway_apps": [
+			71120,
+			15700,
+			285310,
+			71165
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 50
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteaмDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 33
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 11
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 2
+			}
+		]
+	},
+	{
+		"id": "12",
+		"state": {
+			"name": "Planet of Remastered Classics",
+			"image_filename": "Planet41.png",
+			"map_filename": "41.png",
+			"cloud_filename": "",
+			"land_filename": "41.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185248404495",
+			"active": true,
+			"activation_time": 1530675337,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530711033,
+			"total_joins": 1072533,
+			"current_players": 194299,
+			"priority": 53,
+			"tag_ids": "1742,1693"
+		},
+		"giveaway_apps": [
+			570940,
+			50620,
+			316790,
+			320840
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 76
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 20
+			}
+		]
+	},
+	{
+		"id": "13",
+		"state": {
+			"name": "Rhythm Planet I",
+			"image_filename": "Planet45.png",
+			"map_filename": "45.png",
+			"cloud_filename": "",
+			"land_filename": "45.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106804243",
+			"active": true,
+			"activation_time": 1529813431,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529940074,
+			"total_joins": 2403627,
+			"current_players": 309061,
+			"priority": 13,
+			"tag_ids": "1752,1621"
+		},
+		"giveaway_apps": [
+			12900,
+			247080,
+			270210,
+			356400
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 30
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 30
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 28
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 7
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "14",
+		"state": {
+			"name": "Planet of Tanks",
+			"image_filename": "Planet25.png",
+			"map_filename": "25.png",
+			"cloud_filename": "",
+			"land_filename": "25.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106789804",
+			"active": true,
+			"activation_time": 1529836566,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529927994,
+			"total_joins": 1553929,
+			"current_players": 276702,
+			"priority": 14,
+			"tag_ids": "13276,9"
+		},
+		"giveaway_apps": [
+			624970,
+			274500,
+			268400,
+			326460
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 62
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 18
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 15
+			},
+			{
+				"clan_info": {
+					"accountid": 30411596,
+					"name": "TastyHub",
+					"avatar": "aa29daa6cd55b0369175cdf8d5f5338aa3bf00c8",
+					"url": "tastyhub"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "15",
+		"state": {
+			"name": "Planet of Under-Water Exploration I",
+			"image_filename": "Planet40.png",
+			"map_filename": "40.png",
+			"cloud_filename": "",
+			"land_filename": "40.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185223667180",
+			"active": true,
+			"activation_time": 1529845734,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529968406,
+			"total_joins": 1898745,
+			"current_players": 312272,
+			"priority": 15,
+			"tag_ids": "9157,21"
+		},
+		"giveaway_apps": [
+			307110,
+			384190,
+			446790,
+			460700
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 45
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 24
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 19
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 8
+			}
+		]
+	},
+	{
+		"id": "16",
+		"state": {
+			"name": "Abstract Planet",
+			"image_filename": "Planet37.png",
+			"map_filename": "37.png",
+			"cloud_filename": "",
+			"land_filename": "37.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106744458",
+			"active": true,
+			"activation_time": 1529853621,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530000547,
+			"total_joins": 1940988,
+			"current_players": 178780,
+			"priority": 16,
+			"tag_ids": "4400,1664"
+		},
+		"giveaway_apps": [
+			759000,
+			583270,
+			303210,
+			204240
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 42
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 28
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 20
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 5
+			},
+			{
+				"clan_info": {
+					"accountid": 32467254,
+					"name": "Modest & Honest Reviews",
+					"avatar": "366cc81f1b678e4e3d7df4fbe52315668d99b388",
+					"url": "modesthonestreviews"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "17",
+		"state": {
+			"name": "Existential Horror Planet",
+			"image_filename": "Planet27.png",
+			"map_filename": "27.png",
+			"cloud_filename": "",
+			"land_filename": "27.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106761635",
+			"active": true,
+			"activation_time": 1529875189,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1529992118,
+			"total_joins": 1410491,
+			"current_players": 179873,
+			"priority": 17,
+			"tag_ids": "1721,1742"
+		},
+		"giveaway_apps": [
+			588230,
+			514900,
+			388880,
+			231160
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 44
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 24
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 23
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 5
+			}
+		]
+	},
+	{
+		"id": "18",
+		"state": {
+			"name": "Fighting Planet I",
+			"image_filename": "Planet22.png",
+			"map_filename": "22.png",
+			"cloud_filename": "",
+			"land_filename": "22.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106815221",
+			"active": true,
+			"activation_time": 1529927987,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530002826,
+			"total_joins": 1372770,
+			"current_players": 340831,
+			"priority": 18,
+			"tag_ids": "1743,3859"
+		},
+		"giveaway_apps": [
+			678950,
+			520440,
+			307780,
+			725480
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 60
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 29
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 6
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "19",
+		"state": {
+			"name": "Hexes Planet",
+			"image_filename": "Planet7.png",
+			"map_filename": "7.png",
+			"cloud_filename": "",
+			"land_filename": "7.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106821601",
+			"active": true,
+			"activation_time": 1529940458,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530069931,
+			"total_joins": 1732537,
+			"current_players": 246567,
+			"priority": 19,
+			"tag_ids": "1717,9"
+		},
+		"giveaway_apps": [
+			265890,
+			3170,
+			291860,
+			221640
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 60
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 20
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 14
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 2
+			}
+		]
+	},
+	{
+		"id": "20",
+		"state": {
+			"name": "Reboots Planet I",
+			"image_filename": "Planet41.png",
+			"map_filename": "41.png",
+			"cloud_filename": "",
+			"land_filename": "41.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106107080736",
+			"active": true,
+			"activation_time": 1529968417,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530078427,
+			"total_joins": 1469661,
+			"current_players": 307508,
+			"priority": 20,
+			"tag_ids": "5708,19"
+		},
+		"giveaway_apps": [
+			233130,
+			235210,
+			203160,
+			239160
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 61
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 19
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 15
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "21",
+		"state": {
+			"name": "Almost Like A Real Job Planet",
+			"image_filename": "Planet4.png",
+			"map_filename": "4.png",
+			"cloud_filename": "",
+			"land_filename": "4.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185223739998",
+			"active": true,
+			"activation_time": 1529992131,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530112287,
+			"total_joins": 1349693,
+			"current_players": 288770,
+			"priority": 21,
+			"tag_ids": "12472,599"
+		},
+		"giveaway_apps": [
+			433340,
+			448280,
+			233450,
+			344850
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 64
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 22
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 9
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "22",
+		"state": {
+			"name": "Glory Days Planet I",
+			"image_filename": "Planet2.png",
+			"map_filename": "2.png",
+			"cloud_filename": "",
+			"land_filename": "2.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185223801703",
+			"active": true,
+			"activation_time": 1530000591,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530138098,
+			"total_joins": 1334248,
+			"current_players": 296685,
+			"priority": 22,
+			"tag_ids": "1693,19"
+		},
+		"giveaway_apps": [
+			363440,
+			70640,
+			211205,
+			71113
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 75
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 17
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 4
+			}
+		]
+	},
+	{
+		"id": "24",
+		"state": {
+			"name": "Planet of Science!",
+			"image_filename": "Planet12.png",
+			"map_filename": "12.png",
+			"cloud_filename": "",
+			"land_filename": "12.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185223680640",
+			"active": true,
+			"activation_time": 1530002871,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530062377,
+			"total_joins": 1134584,
+			"current_players": 300344,
+			"priority": 23,
+			"tag_ids": "5794,597"
+		},
+		"giveaway_apps": [
+			220200,
+			400,
+			440650,
+			92800
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 64
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 27
+			},
+			{
+				"clan_info": {
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				"num_zones_controled": 2
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 2
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "25",
+		"state": {
+			"name": "Speedrunners Paradise Planet",
+			"image_filename": "Planet14.png",
+			"map_filename": "14.png",
+			"cloud_filename": "",
+			"land_filename": "14.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106108863992",
+			"active": true,
+			"activation_time": 1530062423,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530161095,
+			"total_joins": 911842,
+			"current_players": 331442,
+			"priority": 24,
+			"tag_ids": "1625,1734"
+		},
+		"giveaway_apps": [
+			387290,
+			457210,
+			589510,
+			40800
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 71
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 24
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "26",
+		"state": {
+			"name": "Take It Easy Planet I",
+			"image_filename": "Planet28.png",
+			"map_filename": "28.png",
+			"cloud_filename": "",
+			"land_filename": "28.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106799834",
+			"active": true,
+			"activation_time": 1530069983,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530203223,
+			"total_joins": 1070521,
+			"current_players": 338341,
+			"priority": 25,
+			"tag_ids": "1695,1654"
+		},
+		"giveaway_apps": [
+			270880,
+			359320,
+			413150,
+			732430
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 68
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 23
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 3
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			},
+			{
+				"clan_info": {
+					"accountid": 6502906,
+					"name": "GrabFreeGames",
+					"avatar": "46cc1fb9f4453f06e9ef5cc40ef90f1d06d779c7",
+					"url": "GrabFreeGames"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "27",
+		"state": {
+			"name": "Amnesia Planet",
+			"image_filename": "Planet18.png",
+			"map_filename": "18.png",
+			"cloud_filename": "",
+			"land_filename": "18.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106809890",
+			"active": true,
+			"activation_time": 1530078443,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530231312,
+			"total_joins": 1172365,
+			"current_players": 376629,
+			"priority": 26,
+			"tag_ids": "1742,4166"
+		},
+		"giveaway_apps": [
+			57300,
+			228300,
+			20900,
+			206440
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 67
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 22
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 4
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 3
+			}
+		]
+	},
+	{
+		"id": "28",
+		"state": {
+			"name": "Isometric Planet",
+			"image_filename": "Planet15.png",
+			"map_filename": "15.png",
+			"cloud_filename": "",
+			"land_filename": "15.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106822675",
+			"active": true,
+			"activation_time": 1530112344,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530187892,
+			"total_joins": 712161,
+			"current_players": 211120,
+			"priority": 27,
+			"tag_ids": "5851,4182"
+		},
+		"giveaway_apps": [
+			308040,
+			107100,
+			540840,
+			617480
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 86
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 10
+			}
+		]
+	},
+	{
+		"id": "29",
+		"state": {
+			"name": "Planet of Mold-breaking Metroidvanias II",
+			"image_filename": "Planet3.png",
+			"map_filename": "3.png",
+			"cloud_filename": "",
+			"land_filename": "3.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106829841",
+			"active": true,
+			"activation_time": 1530138144,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530273169,
+			"total_joins": 878116,
+			"current_players": 207449,
+			"priority": 28,
+			"tag_ids": "1628,1625"
+		},
+		"giveaway_apps": [
+			200900,
+			612390,
+			214770,
+			607400
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 51
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 30
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 12
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 3
+			}
+		]
+	},
+	{
+		"id": "30",
+		"state": {
+			"name": "Programming Planet I",
+			"image_filename": "Planet32.png",
+			"map_filename": "32.png",
+			"cloud_filename": "",
+			"land_filename": "32.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185223886884",
+			"active": true,
+			"activation_time": 1530161149,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530254028,
+			"total_joins": 887805,
+			"current_players": 234661,
+			"priority": 29,
+			"tag_ids": "5432,599"
+		},
+		"giveaway_apps": [
+			290020,
+			469920,
+			365450,
+			693700
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 70
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 21
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 5
+			}
+		]
+	},
+	{
+		"id": "31",
+		"state": {
+			"name": "Planet of Spikes",
+			"image_filename": "Planet11.png",
+			"map_filename": "11.png",
+			"cloud_filename": "",
+			"land_filename": "11.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106802710",
+			"active": true,
+			"activation_time": 1530187909,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530292601,
+			"total_joins": 1244851,
+			"current_players": 262438,
+			"priority": 30,
+			"tag_ids": "4026,1625"
+		},
+		"giveaway_apps": [
+			260790,
+			504230,
+			239350,
+			251630
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 55
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 26
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 10
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 5
+			}
+		]
+	},
+	{
+		"id": "32",
+		"state": {
+			"name": "Planet of Alternate History",
+			"image_filename": "Planet20.png",
+			"map_filename": "20.png",
+			"cloud_filename": "",
+			"land_filename": "20.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106108946294",
+			"active": true,
+			"activation_time": 1530203269,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530322341,
+			"total_joins": 1152882,
+			"current_players": 219594,
+			"priority": 31,
+			"tag_ids": "4598,9"
+		},
+		"giveaway_apps": [
+			622460,
+			70000,
+			386080,
+			251060
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 45
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 24
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 23
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 2
+			},
+			{
+				"clan_info": {
+					"accountid": 6502906,
+					"name": "GrabFreeGames",
+					"avatar": "46cc1fb9f4453f06e9ef5cc40ef90f1d06d779c7",
+					"url": "GrabFreeGames"
+				},
+				"num_zones_controled": 1
+			},
+			{
+				"clan_info": {
+					"accountid": 27078568,
+					"name": "Catalyst Slaves",
+					"avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb",
+					"url": "ctslaves"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "33",
+		"state": {
+			"name": "Bullet Hell Planet",
+			"image_filename": "Planet17.png",
+			"map_filename": "17.png",
+			"cloud_filename": "",
+			"land_filename": "17.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106811640",
+			"active": true,
+			"activation_time": 1530231314,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530346696,
+			"total_joins": 1122821,
+			"current_players": 202720,
+			"priority": 32,
+			"tag_ids": "4885,4026"
+		},
+		"giveaway_apps": [
+			404540,
+			242680,
+			305050,
+			667600
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 39
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 39
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 14
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 3
+			},
+			{
+				"clan_info": {
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "34",
+		"state": {
+			"name": "Mouse-Only Planet",
+			"image_filename": "Planet1.png",
+			"map_filename": "1.png",
+			"cloud_filename": "",
+			"land_filename": "1.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185238457646",
+			"active": true,
+			"activation_time": 1530254054,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530324228,
+			"total_joins": 1773730,
+			"current_players": 205224,
+			"priority": 33,
+			"tag_ids": "11123,492",
+			"boss_zone_position": 49
+		},
+		"giveaway_apps": [
+			262810,
+			266010,
+			247140,
+			491950
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 52
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 31
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 10
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 3
+			}
+		]
+	},
+	{
+		"id": "35",
+		"state": {
+			"name": "Sports Planet",
+			"image_filename": "Planet10.png",
+			"map_filename": "10.png",
+			"cloud_filename": "",
+			"land_filename": "10.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106801984",
+			"active": true,
+			"activation_time": 1530273210,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530371586,
+			"total_joins": 1643886,
+			"current_players": 231383,
+			"priority": 34,
+			"tag_ids": "701,3878",
+			"boss_zone_position": 70
+		},
+		"giveaway_apps": [
+			216890,
+			570460,
+			462770,
+			252950
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 36
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 31
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 24
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 5
+			}
+		]
+	},
+	{
+		"id": "36",
+		"state": {
+			"name": "Time Manipulation Planet",
+			"image_filename": "Planet29.png",
+			"map_filename": "29.png",
+			"cloud_filename": "",
+			"land_filename": "29.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106785441",
+			"active": true,
+			"activation_time": 1530292650,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530387574,
+			"total_joins": 1927022,
+			"current_players": 226666,
+			"priority": 35,
+			"tag_ids": "6625,1664"
+		},
+		"giveaway_apps": [
+			26800,
+			13600,
+			322500,
+			552590
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 41
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 27
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 24
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 3
+			},
+			{
+				"clan_info": {
+					"accountid": 6502906,
+					"name": "GrabFreeGames",
+					"avatar": "46cc1fb9f4453f06e9ef5cc40ef90f1d06d779c7",
+					"url": "GrabFreeGames"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "37",
+		"state": {
+			"name": "Dusty Planet",
+			"image_filename": "Planet39.png",
+			"map_filename": "39.png",
+			"cloud_filename": "",
+			"land_filename": "39.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185230461453",
+			"active": true,
+			"activation_time": 1530322378,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530416554,
+			"total_joins": 1187013,
+			"current_players": 231847,
+			"priority": 36,
+			"tag_ids": "4166,9"
+		},
+		"giveaway_apps": [
+			281610,
+			24960,
+			50300,
+			240760
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 33
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 31
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 29
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 3
+			}
+		]
+	},
+	{
+		"id": "38",
+		"state": {
+			"name": "Glory Days Planet II",
+			"image_filename": "Planet36.png",
+			"map_filename": "36.png",
+			"cloud_filename": "",
+			"land_filename": "36.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185227026013",
+			"active": true,
+			"activation_time": 1530324238,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530439335,
+			"total_joins": 4354598,
+			"current_players": 246539,
+			"priority": 37,
+			"tag_ids": "1693,6691"
+		},
+		"giveaway_apps": [
+			245390,
+			227380,
+			70,
+			405830
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 34
+			},
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 31
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 30
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "39",
+		"state": {
+			"name": "Planet of Jumpless Platformers",
+			"image_filename": "Planet33.png",
+			"map_filename": "33.png",
+			"cloud_filename": "",
+			"land_filename": "33.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106767201",
+			"active": true,
+			"activation_time": 1530346738,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530489178,
+			"total_joins": 1300861,
+			"current_players": 211799,
+			"priority": 38,
+			"tag_ids": "1625,21"
+		},
+		"giveaway_apps": [
+			21680,
+			243160,
+			544330,
+			70300
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 44
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 35
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 15
+			},
+			{
+				"clan_info": {
+					"accountid": 5754194,
+					"name": "Brunclík a spol",
+					"avatar": "dc141fce3a2deb2386fb0d60807aa6f8a1343b0f",
+					"url": "brunclikaspol"
+				},
+				"num_zones_controled": 1
+			},
+			{
+				"clan_info": {
+					"accountid": 6502906,
+					"name": "GrabFreeGames",
+					"avatar": "46cc1fb9f4453f06e9ef5cc40ef90f1d06d779c7",
+					"url": "GrabFreeGames"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "40",
+		"state": {
+			"name": "Memes Planet",
+			"image_filename": "Planet13.png",
+			"map_filename": "13.png",
+			"cloud_filename": "",
+			"land_filename": "13.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106825115",
+			"active": true,
+			"activation_time": 1530371638,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530508516,
+			"total_joins": 1251100,
+			"current_players": 198004,
+			"priority": 39,
+			"tag_ids": "10397,1693"
+		},
+		"giveaway_apps": [
+			34900,
+			265930,
+			60,
+			45100
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 53
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 33
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 8
+			},
+			{
+				"clan_info": {
+					"accountid": 6502906,
+					"name": "GrabFreeGames",
+					"avatar": "46cc1fb9f4453f06e9ef5cc40ef90f1d06d779c7",
+					"url": "GrabFreeGames"
+				},
+				"num_zones_controled": 1
+			},
+			{
+				"clan_info": {
+					"accountid": 27078568,
+					"name": "Catalyst Slaves",
+					"avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb",
+					"url": "ctslaves"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "41",
+		"state": {
+			"name": "Take it Easy Planet II",
+			"image_filename": "Planet30.png",
+			"map_filename": "30.png",
+			"cloud_filename": "",
+			"land_filename": "30.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106797383",
+			"active": true,
+			"activation_time": 1530387603,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530620067,
+			"total_joins": 2179883,
+			"current_players": 357716,
+			"priority": 40,
+			"tag_ids": "1654,4182"
+		},
+		"giveaway_apps": [
+			227300,
+			287980,
+			29180,
+			518790
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 47
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 39
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 10
+			}
+		]
+	},
+	{
+		"id": "42",
+		"state": {
+			"name": "Cyberpunk Planet II",
+			"image_filename": "Planet42.png",
+			"map_filename": "42.png",
+			"cloud_filename": "",
+			"land_filename": "42.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106109355348",
+			"active": true,
+			"activation_time": 1530416583,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530526295,
+			"total_joins": 1451351,
+			"current_players": 184852,
+			"priority": 41,
+			"tag_ids": "4115,3942"
+		},
+		"giveaway_apps": [
+			346940,
+			307580,
+			237930,
+			238210
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 58
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 29
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 9
+			}
+		]
+	},
+	{
+		"id": "508",
+		"state": {
+			"name": "Fighting Planet II",
+			"image_filename": "Planet14.png",
+			"map_filename": "14.png",
+			"cloud_filename": "",
+			"land_filename": "14.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185224331156",
+			"active": true,
+			"activation_time": 1530439341,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530466207,
+			"total_joins": 866674,
+			"current_players": 126102,
+			"priority": 42,
+			"tag_ids": "1743,1773"
+		},
+		"giveaway_apps": [
+			261180,
+			285900,
+			389730,
+			45760
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 54
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 26
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 16
+			}
+		]
+	},
+	{
+		"id": "525",
+		"state": {
+			"name": "Planet of Galactic Conquest",
+			"image_filename": "Planet38.png",
+			"map_filename": "38.png",
+			"cloud_filename": "",
+			"land_filename": "38.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106816412",
+			"active": true,
+			"activation_time": 1530466266,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530548299,
+			"total_joins": 1273508,
+			"current_players": 189155,
+			"priority": 43,
+			"tag_ids": "1670,1755"
+		},
+		"giveaway_apps": [
+			392110,
+			244160,
+			204880,
+			281990
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "0b2bbbccda8da59f492d5dc37df9956d8c54f79e",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 66
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 24
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 6
+			}
+		]
+	},
+	{
+		"id": "526",
+		"state": {
+			"name": "Reboots Planet II",
+			"image_filename": "Planet5.png",
+			"map_filename": "5.png",
+			"cloud_filename": "",
+			"land_filename": "5.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106757766",
+			"active": true,
+			"activation_time": 1530489235,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530587133,
+			"total_joins": 1302713,
+			"current_players": 221960,
+			"priority": 44,
+			"tag_ids": "5708,19"
+		},
+		"giveaway_apps": [
+			379720,
+			577940,
+			298050,
+			480490
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 63
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 28
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 4
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "527",
+		"state": {
+			"name": "Rhythm Planet II",
+			"image_filename": "Planet45.png",
+			"map_filename": "45.png",
+			"cloud_filename": "",
+			"land_filename": "45.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106803564",
+			"active": true,
+			"activation_time": 1530508555,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530649286,
+			"total_joins": 1347814,
+			"current_players": 120529,
+			"priority": 45,
+			"tag_ids": "1752,1621"
+		},
+		"giveaway_apps": [
+			412740,
+			49600,
+			351990,
+			516130
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 62
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 31
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 3
+			}
+		]
+	},
+	{
+		"id": "528",
+		"state": {
+			"name": "Planet of Megaman-Likes",
+			"image_filename": "Planet21.png",
+			"map_filename": "21.png",
+			"cloud_filename": "",
+			"land_filename": "21.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106824246",
+			"active": true,
+			"activation_time": 1530526315,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530568609,
+			"total_joins": 960606,
+			"current_players": 85400,
+			"priority": 46,
+			"tag_ids": "3871,3798"
+		},
+		"giveaway_apps": [
+			322110,
+			248550,
+			218820,
+			310700
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 66
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 24
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 6
+			}
+		]
+	},
+	{
+		"id": "529",
+		"state": {
+			"name": "Programming Planet II",
+			"image_filename": "Planet32.png",
+			"map_filename": "32.png",
+			"cloud_filename": "",
+			"land_filename": "32.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106781143",
+			"active": true,
+			"activation_time": 1530548335,
+			"position": 1,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530675292,
+			"total_joins": 1740627,
+			"current_players": 231518,
+			"priority": 47,
+			"tag_ids": "5432,492"
+		},
+		"giveaway_apps": [
+			375820,
+			240440,
+			504210,
+			619150
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 67
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 23
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 5
+			},
+			{
+				"clan_info": {
+					"accountid": 6502906,
+					"name": "GrabFreeGames",
+					"avatar": "46cc1fb9f4453f06e9ef5cc40ef90f1d06d779c7",
+					"url": "GrabFreeGames"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "530",
+		"state": {
+			"name": "Visual Novel Planet",
+			"image_filename": "Planet14.png",
+			"map_filename": "14.png",
+			"cloud_filename": "",
+			"land_filename": "14.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106782779",
+			"active": true,
+			"activation_time": 1530568615,
+			"position": 2,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530702595,
+			"total_joins": 1557586,
+			"current_players": 149036,
+			"priority": 48,
+			"tag_ids": "3799,7208"
+		},
+		"giveaway_apps": [
+			429580,
+			251990,
+			412830,
+			447530
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 69
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 22
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 4
+			},
+			{
+				"clan_info": {
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				"num_zones_controled": 1
+			}
+		]
+	},
+	{
+		"id": "531",
+		"state": {
+			"name": "Under Water Exploration Planet II",
+			"image_filename": "Planet44.png",
+			"map_filename": "44.png",
+			"cloud_filename": "",
+			"land_filename": "44.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106784338",
+			"active": true,
+			"activation_time": 1530587155,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530615766,
+			"total_joins": 877240,
+			"current_players": 98328,
+			"priority": 49,
+			"tag_ids": "9157,4166"
+		},
+		"giveaway_apps": [
+			409710,
+			282140,
+			313120,
+			264710
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 74
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 19
+			},
+			{
+				"clan_info": {
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				"num_zones_controled": 3
+			}
+		]
+	},
+	{
+		"id": "532",
+		"state": {
+			"name": "Hand-Drawn Planet",
+			"image_filename": "Planet31.png",
+			"map_filename": "31.png",
+			"cloud_filename": "",
+			"land_filename": "31.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106106819359",
+			"active": true,
+			"activation_time": 1530615775,
+			"position": 3,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530696085,
+			"total_joins": 1149233,
+			"current_players": 120320,
+			"priority": 50,
+			"tag_ids": "6815,492"
+		},
+		"giveaway_apps": [
+			711660,
+			542050,
+			535480,
+			597220
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 70
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 26
+			}
+		]
+	},
+	{
+		"id": "533",
+		"state": {
+			"name": "Cyberpunk Planet I",
+			"image_filename": "Planet26.png",
+			"map_filename": "26.png",
+			"cloud_filename": "",
+			"land_filename": "26.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062106109586418",
+			"active": true,
+			"activation_time": 1530620095,
+			"position": 0,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530718776,
+			"total_joins": 1499310,
+			"current_players": 206430,
+			"priority": 51,
+			"tag_ids": "4115,592"
+		},
+		"giveaway_apps": [
+			423230,
+			280180,
+			268870,
+			427880
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 81
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 15
+			}
+		]
+	},
+	{
+		"id": "534",
+		"state": {
+			"name": "Planet of Mold-breaking Metroidvanias III",
+			"image_filename": "Planet34.png",
+			"map_filename": "34.png",
+			"cloud_filename": "",
+			"land_filename": "34.png",
+			"difficulty": 1,
+			"giveaway_id": "2492062185223895832",
+			"active": true,
+			"activation_time": 1530649315,
+			"position": 4,
+			"captured": true,
+			"capture_progress": 1,
+			"capture_time": 1530726144,
+			"total_joins": 1616362,
+			"current_players": 370416,
+			"priority": 52,
+			"tag_ids": "1628,21",
+			"boss_zone_position": 43
+		},
+		"giveaway_apps": [
+			332200,
+			588650,
+			283640,
+			730920
+		],
+		"top_clans": [
+			{
+				"clan_info": {
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				"num_zones_controled": 70
+			},
+			{
+				"clan_info": {
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				"num_zones_controled": 26
+			}
+		]
+	}
+]

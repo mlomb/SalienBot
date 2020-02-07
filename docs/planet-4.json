@@ -1,0 +1,4474 @@
+{
+	"id": "4",
+	"state": {
+		"name": "Mind-Melters Planet",
+		"image_filename": "Planet19.png",
+		"map_filename": "19.png",
+		"cloud_filename": "",
+		"land_filename": "19.png",
+		"difficulty": 1,
+		"giveaway_id": "2492062106107084998",
+		"active": true,
+		"activation_time": 1529540912,
+		"position": 3,
+		"captured": true,
+		"capture_progress": 1,
+		"capture_time": 1529725261,
+		"total_joins": 598429,
+		"current_players": 57693,
+		"priority": 4,
+		"tag_ids": "1664,3968"
+	},
+	"giveaway_apps": [
+		219890,
+		497780,
+		437920,
+		204220
+	],
+	"top_clans": [
+		{
+			"clan_info": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"num_zones_controled": 79
+		},
+		{
+			"clan_info": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"num_zones_controled": 13
+		},
+		{
+			"clan_info": {
+				"accountid": 4777282,
+				"name": "SteamDB",
+				"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+				"url": "SteamDB"
+			},
+			"num_zones_controled": 4
+		}
+	],
+	"zones": [
+		{
+			"zone_position": 0,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "207",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.00002494000000297092,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				}
+			]
+		},
+		{
+			"zone_position": 1,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "487",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000003879999894706998,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 9037207,
+					"name": "Summer Game Chan",
+					"avatar": "57bb1abb1a75a74c8c300c12e91e3ec94bd7322a",
+					"url": "SGChan"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 2,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "156",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.00002735999987635296,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 32575108,
+					"name": "VNNs Offical Group",
+					"avatar": "cad4881bda25d8c7dcd6bc855c12ef63ea821321",
+					"url": "valvenewsnetwork"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				}
+			]
+		},
+		{
+			"zone_position": 3,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "481",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000013200000239521614,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 29772,
+					"name": "Россия",
+					"avatar": "0d8eb802f2008159e8dea540f6bdc054c2ff1a5d",
+					"url": "ru_steam"
+				}
+			]
+		},
+		{
+			"zone_position": 4,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "331",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000001764999979059212,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 29772,
+					"name": "Россия",
+					"avatar": "0d8eb802f2008159e8dea540f6bdc054c2ff1a5d",
+					"url": "ru_steam"
+				}
+			]
+		},
+		{
+			"zone_position": 5,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "221",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.000005230000169831328,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 6,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "454",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 5.850000093232666e-7,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 7,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "456",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 29772,
+					"name": "Россия",
+					"avatar": "0d8eb802f2008159e8dea540f6bdc054c2ff1a5d",
+					"url": "ru_steam"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				}
+			]
+		},
+		{
+			"zone_position": 8,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "464",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.0000026249999791616574,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 9,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "496",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.000001369999949929479,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 29726863,
+					"name": "CIGIL",
+					"avatar": "37712818ae2e6fa24e806196dda424cca333453b",
+					"url": "CIGIL228"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				}
+			]
+		},
+		{
+			"zone_position": 10,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "410",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.000004319999789004214,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 10639590,
+					"name": "Archi's SC Farm",
+					"avatar": "4465ed650c6aa362f1ce9ccd56d511a4fa8ea521",
+					"url": "ascfarm"
+				}
+			]
+		},
+		{
+			"zone_position": 11,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "458",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 31961159,
+					"name": "Mangrove League United",
+					"avatar": "ad24da370070e514112597cc1d106c8025401745",
+					"url": "TheOriginalMLU"
+				},
+				{
+					"accountid": 8337017,
+					"name": "Complain Gaming",
+					"avatar": "57a5aa8d3fcde508af6bd1942a9220e25916fc98",
+					"url": "ComplainGaming"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 26345235,
+					"name": "AutismParty",
+					"avatar": "0984aa2e2f6b833d364103ef5e274db754771053",
+					"url": "autistparty"
+				}
+			]
+		},
+		{
+			"zone_position": 12,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "361",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000015250000160449417,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 3054730,
+					"name": "LEGO Universe Refugees",
+					"avatar": "ed453cd3a2788dc86cd16dd3e034b1565156f533",
+					"url": "LUforever"
+				}
+			]
+		},
+		{
+			"zone_position": 13,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "430",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.0000047849998736637644,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				}
+			]
+		},
+		{
+			"zone_position": 14,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "478",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000019550000160961645,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 508934,
+					"name": "osu! -rhythm is just a click away",
+					"avatar": "72e8453c91b310f78d085b41f95573cc9abc24af",
+					"url": "osugame"
+				}
+			]
+		},
+		{
+			"zone_position": 15,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "366",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 8.950000278673542e-7,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 5049052,
+					"name": "Pettan Co",
+					"avatar": "ebe81ecc743a7051cdf74945b3ddd02babb7f830",
+					"url": "PettanCo"
+				}
+			]
+		},
+		{
+			"zone_position": 16,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "286",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.00004895000165561214,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				}
+			]
+		},
+		{
+			"zone_position": 17,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "91",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000009184999726130627,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				}
+			]
+		},
+		{
+			"zone_position": 18,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "237",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.00003022499913640786,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 32915311,
+					"name": "Lady Delfhi's cancer cult",
+					"avatar": "2578182321849a1f0c6060211f4c339db2d1ae55",
+					"url": "CringyCancerCult"
+				}
+			]
+		},
+		{
+			"zone_position": 19,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "299",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.000017264999769395217,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 20,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "291",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.000008119999620248564,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 21,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "412",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9989352226257324,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 22,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "468",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9945554733276367,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 23,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "522",
+			"difficulty": 2,
+			"captured": true,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 24,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "280",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9966223835945129,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 25,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "283",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9959759712219238,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 75,
+					"name": "SA Goons",
+					"avatar": "81eb06a340f28a5616d19c30593b5d933e67122c",
+					"url": "sagoons"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 26,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "334",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.0000011700000186465331,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 27,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "93",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9987366199493408,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 32575108,
+					"name": "VNNs Offical Group",
+					"avatar": "cad4881bda25d8c7dcd6bc855c12ef63ea821321",
+					"url": "valvenewsnetwork"
+				}
+			]
+		},
+		{
+			"zone_position": 28,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "197",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9975327849388123,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 6869120,
+					"name": "Humble Bundle Official",
+					"avatar": "6e9dc002ba3270557463ef668bb6f4b69b149714",
+					"url": "HumbleBundleOfficial"
+				}
+			]
+		},
+		{
+			"zone_position": 29,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "103",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000007890000233601313,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 30,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "213",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9976078867912292,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 31,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "193",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000004285000159143237,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 32,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "106",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000008230000275943894,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 33,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "504",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000013899999657951412,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 34,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "376",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9909505248069763,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 35,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "348",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9932860136032104,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 36,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "386",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000003010000000358559,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 37,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "128",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.000317905010888353,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 38,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "362",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000011629999789875,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 39,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "161",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9923954606056213,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 4146911,
+					"name": "Homestucks",
+					"avatar": "505b4dc7c852d28b5b3624df602ee4f10867d87a",
+					"url": "Homestucks"
+				}
+			]
+		},
+		{
+			"zone_position": 40,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "83",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.00008453999907942489,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 29772,
+					"name": "Россия",
+					"avatar": "0d8eb802f2008159e8dea540f6bdc054c2ff1a5d",
+					"url": "ru_steam"
+				}
+			]
+		},
+		{
+			"zone_position": 41,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "102",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.00002763500015134923,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 25085025,
+					"name": "｢TAB_mk and Friends｣ ❤",
+					"avatar": "9de7e28aedafabff4ad47b45e131b490f0224301",
+					"url": "tab_mk"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 4771848,
+					"name": "/r/pcmasterrace Group",
+					"avatar": "2e243623b0c01a1a56c736eb14b2551a4ec6f83c",
+					"url": "steampcmasterrace"
+				}
+			]
+		},
+		{
+			"zone_position": 42,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "165",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.00011505000293254852,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				}
+			]
+		},
+		{
+			"zone_position": 43,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "218",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9961423277854919,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 44,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "252",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000004864999937126413,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 45,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "293",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.996957004070282,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 46,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "279",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000034750000850181095,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 47,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "433",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000011299999869152089,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 48,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "187",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9957982301712036,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 49,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "118",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000017505000869277865,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 5422002,
+					"name": "Over Caffeined Players",
+					"avatar": "b6233d7e199b04517bde251fc160c677043053a4",
+					"url": "_ocp"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				}
+			]
+		},
+		{
+			"zone_position": 50,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "258",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000021764999473816715,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 51,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "199",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000010474999726284295,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 52,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "143",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.00003398500120965764,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 53,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "116",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.00005146499825059436,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 4771848,
+					"name": "/r/pcmasterrace Group",
+					"avatar": "2e243623b0c01a1a56c736eb14b2551a4ec6f83c",
+					"url": "steampcmasterrace"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				}
+			]
+		},
+		{
+			"zone_position": 54,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "50",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.00009934999980032444,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 4771848,
+					"name": "/r/pcmasterrace Group",
+					"avatar": "2e243623b0c01a1a56c736eb14b2551a4ec6f83c",
+					"url": "steampcmasterrace"
+				}
+			]
+		},
+		{
+			"zone_position": 55,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "327",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000014385000213223975,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				}
+			]
+		},
+		{
+			"zone_position": 56,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "322",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000008265000360552222,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 57,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "330",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000036450001061894,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 58,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "337",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9980806708335876,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 59,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "303",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000001685000029283401,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 60,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "90",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9942429065704346,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 61,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "96",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.00001965500086953398,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 62,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "86",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.00002509499972802587,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 63,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "178",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000010875000043597538,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 64,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "158",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.00014612000086344779,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 65,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "111",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9949320554733276,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				}
+			]
+		},
+		{
+			"zone_position": 66,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "126",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.998630940914154,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 67,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "229",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000012855000022682361,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 68,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "210",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9958984851837158,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 69,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "250",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000006584999937331304,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 70,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "60",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9948713779449463,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 71,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "356",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9939045906066895,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 72,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "79",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000143449997267453,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 73,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "108",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9944396615028381,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 74,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "162",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9967560768127441,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 75,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "146",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.0000265199996647425,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 76,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "94",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9938777685165405,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 77,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "62",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9988110065460205,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 78,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "247",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9961552023887634,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				}
+			]
+		},
+		{
+			"zone_position": 79,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "409",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.0000032499999633728294,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 80,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "176",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9952731728553772,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 81,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "374",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9958987832069397,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 82,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "238",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9987279176712036,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 83,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "245",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000003220000053261174,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4066397,
+					"name": "IDWS-ȿ© Gamer Community",
+					"avatar": "c2be021f18c1b9765f3f44ec8115df347b06fbb5",
+					"url": "idws-sc"
+				}
+			]
+		},
+		{
+			"zone_position": 84,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "51",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.00022764499590266496,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 4771848,
+					"name": "/r/pcmasterrace Group",
+					"avatar": "2e243623b0c01a1a56c736eb14b2551a4ec6f83c",
+					"url": "steampcmasterrace"
+				},
+				{
+					"accountid": 4755837,
+					"name": "Steam Trading Cards Group",
+					"avatar": "2ce81e0b8f1c748f86d1ca4230a7f45dd0b906b1",
+					"url": "tradingcards"
+				}
+			]
+		},
+		{
+			"zone_position": 85,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "147",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9970660209655762,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				}
+			]
+		},
+		{
+			"zone_position": 86,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "129",
+			"difficulty": 2,
+			"captured": true,
+			"capture_progress": 0.000008314999831782188,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 4066397,
+					"name": "IDWS-ȿ© Gamer Community",
+					"avatar": "c2be021f18c1b9765f3f44ec8115df347b06fbb5",
+					"url": "idws-sc"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 87,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "461",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.000003164999952787184,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 88,
+			"leader": {
+				"accountid": 5151157,
+				"name": "Steam Universe",
+				"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+				"url": "steamuniverse"
+			},
+			"type": 3,
+			"gameid": "87",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9909301996231079,
+			"top_clans": [
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 89,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "319",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9971442818641663,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 90,
+			"leader": {
+				"accountid": 4777282,
+				"name": "SteamDB",
+				"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+				"url": "SteamDB"
+			},
+			"type": 3,
+			"gameid": "390",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9924646615982056,
+			"top_clans": [
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 91,
+			"leader": {
+				"accountid": 4777282,
+				"name": "SteamDB",
+				"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+				"url": "SteamDB"
+			},
+			"type": 3,
+			"gameid": "375",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9995012879371643,
+			"top_clans": [
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 148845,
+					"name": "Hentai!",
+					"avatar": "4ff6a96268bb05113b88faf1c9688301e8cfa706",
+					"url": "hentaii"
+				}
+			]
+		},
+		{
+			"zone_position": 92,
+			"leader": {
+				"accountid": 4777282,
+				"name": "SteamDB",
+				"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+				"url": "SteamDB"
+			},
+			"type": 3,
+			"gameid": "416",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9992457628250122,
+			"top_clans": [
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				}
+			]
+		},
+		{
+			"zone_position": 93,
+			"leader": {
+				"accountid": 4777282,
+				"name": "SteamDB",
+				"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+				"url": "SteamDB"
+			},
+			"type": 3,
+			"gameid": "384",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9981071949005127,
+			"top_clans": [
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 4066397,
+					"name": "IDWS-ȿ© Gamer Community",
+					"avatar": "c2be021f18c1b9765f3f44ec8115df347b06fbb5",
+					"url": "idws-sc"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				}
+			]
+		},
+		{
+			"zone_position": 94,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "403",
+			"difficulty": 3,
+			"captured": true,
+			"capture_progress": 0.0000012350000133665162,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 33035916,
+					"name": "/r/saliens",
+					"avatar": "a70013123e0ebe48dee5889d2f2bb42f8d8b370c",
+					"url": "summersaliens"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				}
+			]
+		},
+		{
+			"zone_position": 95,
+			"leader": {
+				"accountid": 255962,
+				"name": "STCN",
+				"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+				"url": "SteamCN"
+			},
+			"type": 3,
+			"gameid": "135",
+			"difficulty": 1,
+			"captured": true,
+			"capture_progress": 0.9980773329734802,
+			"top_clans": [
+				{
+					"accountid": 255962,
+					"name": "STCN",
+					"avatar": "f2a29784032f714eb79afbd2c94767d17101f871",
+					"url": "SteamCN"
+				},
+				{
+					"accountid": 4777282,
+					"name": "SteamDB",
+					"avatar": "ecf2f471610eb2c59253359fa2b7ec944fedd076",
+					"url": "SteamDB"
+				},
+				{
+					"accountid": 5151157,
+					"name": "Steam Universe",
+					"avatar": "e34e65ef2ef16093d4428c930fbcc42490522ed3",
+					"url": "steamuniverse"
+				},
+				{
+					"accountid": 4066397,
+					"name": "IDWS-ȿ© Gamer Community",
+					"avatar": "c2be021f18c1b9765f3f44ec8115df347b06fbb5",
+					"url": "idws-sc"
+				},
+				{
+					"accountid": 275018,
+					"name": "Reddit",
+					"avatar": "d5a5703f389be71faddc08253bc492187383b172",
+					"url": "reddit"
+				}
+			]
+		}
+	]
+}
